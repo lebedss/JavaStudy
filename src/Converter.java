@@ -7,9 +7,9 @@ public class Converter {
         return value / 60;
     }
     public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(140);
-        int dollar = Converter.rubleToDollar(180);
-        System.out.println(  "140 rubles are " + euro + " euro.");
-        System.out.println("180 rubles are " + dollar + " dollars.");
+        float euro = Converter.rubleToEuro(140);
+        float dollar = Converter.rubleToDollar(180);
+        System.out.println(  "indicated rubles are " + euro + " euro.");
+        System.out.println("indicated rubles are " + dollar + " dollars.");
     }
 }
