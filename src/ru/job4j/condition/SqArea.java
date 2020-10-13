@@ -1,14 +1,14 @@
 package ru.job4j.condition;
 
 public class SqArea {
-    public static int square (int p, int k) {
-        int h = (p / (2 * (k + 1)));
-        int L = h * k;
+    public static double square (double p,double k) {
+        double h = ( p / (2 * (k + 1)));
+        double L = h * k;
         return L * h;
     }
 
     public static void main(String[] args) {
-        int result = SqArea.square(6, 2);
-        System.out.println(" площадь прямоугольника " + result);
+        double result = SqArea.square(6.5,5.5);
+        System.out.println(" площадь прямоугольника " + result +" см2 ");
     }
 }
