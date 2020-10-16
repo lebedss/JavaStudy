@@ -10,8 +10,8 @@ public class Point {
     }
 
     public static void main(String[]args) {
-            double result = Point.distance(25, 28, 2, 45);
+            double result = Point.distance(8, 2, 3, 0);
             System.out.println("distance between points is  " + result); }
-        }
+    }
 
 
