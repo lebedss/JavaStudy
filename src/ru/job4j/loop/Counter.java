@@ -8,12 +8,13 @@ package ru.job4j.loop;
         return sum;
     }
 
-    public static void main(String[] args) {
-        int answer1 = Counter.sum(0, 10);
-        System.out.println(answer1);
-        int answer2 = Counter.sum(3, 8);
-        System.out.println(answer2);
-        int answer3 = Counter.sum(1, 1);
-        System.out.println(answer3);
-    }
+    public static int sumByEven(int start, int finish) {
+         int sumEven = 0;
+         for (int value = start; value <= finish; value++) {
+             if (value % 2 == 0) {
+                 sumEven = sumEven + value;
+             }
+         }
+         return sumEven;
+     }
 }
