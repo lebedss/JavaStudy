@@ -5,8 +5,8 @@ public class Turn {
         int size = array.length;
         for (int i = 0; i < size / 2; i++) {
             int tmp = array[i];
-            array[i] = array[size - i - 1];
-            array[size - i - 1] = tmp;
+            array[i] = array[size - 1 - i];
+            array[size - 1 - i] = tmp;
         }
         return array;
     }
